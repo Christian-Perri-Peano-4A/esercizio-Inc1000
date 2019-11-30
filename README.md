@@ -1,5 +1,5 @@
-# esercizio-Inc1000
-#In questo esercizio ho creato 2 oggetti con la stessa classe a cui ho assegnato un Thread,questi 2 oggetti hanno il compito di incrementare
+# esercizio-Inc1000 parte 1
+In questo esercizio ho creato 2 oggetti con la stessa classe a cui ho assegnato un Thread,questi 2 oggetti hanno il compito di incrementare
 un contatore di 1000 ciascuno.
 Quando si va a fare l' output si può chiamare il metodo dell' oggetto soltanto richiamando la classe,questo perchè il contatore all' interno
 della classe viene dichiarata statica,quindi tutti gli oggetti di quella la condividono,infatti se la variabile contatore venisse dichiarato
