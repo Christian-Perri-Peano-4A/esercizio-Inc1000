@@ -7,4 +7,6 @@ In output viene restituito il valore 0,questo perchè i Thread vengono fermati p
 In questo esercizio ho creato 2 oggetti il cui scopo è incrementare di 1000 ciascuno la variabile contatore.
 In questo esercizio a differenza del precedente si aggiungono le chiamate "inc.join",questo per far si che i 2 thread terminino la loro esecuzione,però in alcuni casi il risultato in output non è quello desiderato,questo perche i 2 thread non sono sincronizzati,quindi alcune volte possono accedere alla stessa variabile in contemporanea senza incrementare come dovuto il contatore.
 
-# esercizio-Inc1000 
+# esercizio-Inc1000 parte 3
+In questo esercizio ho creato 2 oggetti il cui scopo è incrementare di 1000 la variabile contatore.
+In questo esercizio a differenza del precedente si aggiunge synchrosized al metodo run,con questa aggiunta i 2 thread si sincronizzano tra di loro e non si vengono a creare collisioni sulla variabile contatore così che ilvalore finale sarà sempre 2000.
